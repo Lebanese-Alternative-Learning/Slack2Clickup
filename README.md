@@ -120,6 +120,10 @@ sudo systemctl restart it-support-bot
 - [Anthropic SDK](https://github.com/anthropics/anthropic-sdk-typescript) — Claude classification
 - [ClickUp API v2](https://developer.clickup.com/) — tickets, attachments, comments
 
+## License
+
+[MIT](./LICENSE) — free to use, modify, and distribute, including commercially. Keep the copyright notice; there is no warranty.
+
 ## Acknowledgements
 
 Developed with the support of [Claude Code](https://claude.com/claude-code).
