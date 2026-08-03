@@ -367,7 +367,7 @@ app.message(async ({ message, say, client }) => {
   const required = ['SLACK_BOT_TOKEN', 'SLACK_APP_TOKEN', 'ANTHROPIC_API_KEY', 'CLICKUP_API_TOKEN'];
   const missing = required.filter(k => !process.env[k]);
   if (missing.length) {
-    log('FATAL', `Missing env vars: ${missing.join(', ')} — check /opt/cc-slack-support/.env`);
+    log('FATAL', `Missing env vars: ${missing.join(', ')} — check .env`);
     process.exit(1);
   }
 

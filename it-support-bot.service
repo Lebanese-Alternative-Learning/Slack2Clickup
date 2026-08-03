@@ -1,19 +1,19 @@
 [Unit]
-Description=LAL IT Support Slack Bot
+Description=Slack2Clickup Support Bot
 After=network.target network-online.target
 Wants=network-online.target
 
 [Service]
 Type=simple
 User=it-support-bot
-WorkingDirectory=/opt/cc-slack-support
+WorkingDirectory=/opt/slack2clickup
 ExecStart=/usr/bin/node index.js
 Restart=on-failure
 RestartSec=15
 # Stop restart loop if it crashes 5 times within 5 minutes
 StartLimitIntervalSec=300
 StartLimitBurst=10
-EnvironmentFile=/opt/cc-slack-support/.env
+EnvironmentFile=/opt/slack2clickup/.env
 StandardOutput=journal
 StandardError=journal
 SyslogIdentifier=it-support-bot
