@@ -122,7 +122,7 @@ sudo systemctl restart it-support-bot
 
 ## License
 
-[PolyForm Noncommercial 1.0.0](./LICENSE) — free to use, modify, and distribute for noncommercial purposes (personal, nonprofit, educational, research). Commercial use is not permitted without a separate license from the copyright holder. There is no warranty.
+[MIT + Commons Clause](./LICENSE) — free to use, modify, distribute, and run internally (including at a for-profit company, for your own IT support). The one thing you can't do is sell the software itself or offer it as a paid hosted service. There is no warranty.
 
 ## Acknowledgements
 
